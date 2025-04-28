@@ -76,11 +76,27 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/microsoft/vscode
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
-  
-3. Explicação: <EXPLICACAO_AQUI>
+2. Gráfico selecionado: Lines of Code (LOC)
 
+3. Explicação:
 
+Ao observar o gráfico "Lines of Code (LOC)", vemos um crescimento consistente na quantidade de linhas de código do projeto VS Code entre 2020 e 2025. 
+O projeto sai de cerca de 711 mil linhas em 2020 para mais de 1,66 milhão em 2025, praticamente dobrando de tamanho nesse intervalo.
 
+Algo que chama bastante atenção é o salto expressivo entre 2024 e 2025: o projeto cresce em mais de 370 mil linhas de código nesse único ano. 
+Isso é um aumento muito maior que o observado nos anos anteriores, onde o crescimento anual era em torno de 130 mil linhas.
+
+Para entender melhor o que pode ter acontecido, podemos olhar outros gráficos gerados:
+
+- No gráfico de **TypeScript files**, o número de arquivos `.ts` também cresce bastante nesse mesmo período, de 4580 para 5204 arquivos, indicando que muitos novos módulos foram adicionados.
+- No gráfico de **Classes, Interfaces e Type Aliases**, vemos aumento significativo nas três categorias, especialmente em `class_declaration` e `interface_declaration`, o que sugere que o crescimento foi estruturado com novas definições de tipos e padrões de projeto.
+- O gráfico de **Functions** mostra que tanto o número de métodos (`method_definition`) quanto de funções do tipo `arrow_function` aumentaram bastante em 2025.
+- E o gráfico de **Comments** (comentários no código) também apresenta um crescimento proporcional, indicando que essa nova quantidade de código manteve a preocupação com documentação interna.
+
+Essa expansão no código também foi perceptível na prática. Como usuário do VS Code nesses anos, pude notar a adição de várias novas funcionalidades, como a integração com o GitHub Copilot e melhorias significativas no sistema de sugestões automáticas de código. Especialmente entre 2024 e 2025, o recurso de autocomplete ficou muito mais inteligente e rápido.
+
+Esses padrões sugerem que, entre 2024 e 2025, o VS Code passou por uma grande expansão de funcionalidades e refatorações internas, o que refletiu não só no volume de código, mas também em melhorias concretas na experiência dos desenvolvedores.
+
+Ainda vale ressaltar que o aumento de linhas de código em 2025 não parece ser um crescimento desorganizado, mas sim uma expansão planejada e bem estruturada do projeto.
